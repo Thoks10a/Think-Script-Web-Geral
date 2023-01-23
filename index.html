@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>E-mail Script</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./image/image-think.png" alt="">
+        <div class="container2">
+            <div class="form">
+                <h4 style="color:red"> * Itens Obrigatórios</h4>
+                <input placeholder="*Quantidade" id="quantidade" type="text" />
+                <input placeholder="*Nome Processo" id="nomeprocesso" type="text" />
+                <input placeholder="*Endpoint" id="endpoint" type="text" />
+                <input placeholder="*Caminho do processo" id="caminhoprocesso" type="text" />
+                <input placeholder="*Descrição do processo" id="descricao" class="form-descricao" type="text" />
+                <input placeholder="*Descrição do hash" id="descricaohash" class="form-descricao" type="text" />
+                <input placeholder="*Ação Necessária" id="acao" class="form-descricao" type="text" />
+            </div>
+            <div class="form">
+
+            </div>
+
+        </div>
+        <div class="container-radio">
+            <div class="radio">
+                <ul>
+                    <li><input id="Vicunha" name="radio" type="radio">
+                        <label for="radio-2" class="radio-label">Vicunha</label></li>
+                    <li><input id="VicunhaHolding" name="radio" type="radio">
+                        <label for="radio-2" class="radio-label">Vicunha Holding</label></li>
+                    <li><input id="Tce" name="radio" type="radio">
+                        <label for="radio-2" class="radio-label">TCE</label></li>
+                    <li><input id="Cptm" name="radio" type="radio">
+                        <label for="radio-2" class="radio-label">CPTM</label></li>
+                </ul>
+                <button class="offset" onclick="window.location.reload(true);">Reload</button>
+            </div>
+            <div class="radio">
+                <ul>
+                    <li><input id="Bomdia" name="radio2" type="radio">
+                        <label for="radio-2" class="radio-label">Bom Dia</label></li>
+                    <li><input id="Boatarde" name="radio2" type="radio">
+                        <label for="radio-2" class="radio-label">Boa Tarde</label></li>
+                    <li><input id="Boanoite" name="radio2" type="radio">
+                        <label for="radio-2" class="radio-label">Boa Noite</label></li>
+                </ul>
+                <button id="generate" class="offset" style="margin-top: 40px">Generate</button>
+
+            </div>
+        </div>
+        <div class="container-result">
+            <h1 style="color: white; margin-bottom: 20px">Result</h1>
+            <div id="result" class="result">
+
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

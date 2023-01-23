@@ -1,0 +1,130 @@
+html {
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2 {
+    height: auto;
+    width: 50vw;
+    background-color: rgb(12, 19, 29);
+    background: rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 40px;
+    margin-bottom: 25px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.form>label {
+    width: 70%;
+
+}
+
+.form>input {
+    width: 70%;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    margin-bottom: 25px;
+    outline: none;
+    color: rgb(119, 146, 187);
+    padding-bottom: 10px;
+}
+
+.container-radio {
+    height: auto;
+    width: 50vw;
+    background-color: rgb(12, 19, 29);
+    background: rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio {
+    height: 100%;
+    width: 50%;
+    color: white;
+    margin-right: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.radio>label {
+    padding: 5px;
+}
+
+
+.offset {
+    width: 100%;
+    height: 50px;
+    background-color: #223e5e;
+    border: none;
+    color: white;
+    border-radius: 15px;
+}
+
+
+
+.offset:hover {
+    cursor: pointer;
+    background-color: #141e30;
+    transition: 1s;
+    border: 1px solid black;
+}
+
+.container-result {
+    height: auto;
+    width: 50vw;
+    background-color: rgb(12, 19, 29);
+    background: rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 40px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.result {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 50px;
+}
