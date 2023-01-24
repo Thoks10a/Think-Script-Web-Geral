@@ -70,6 +70,6 @@ hgenerate.addEventListener("click", function () {
 
 hcopy.addEventListener("click", function () {
 
-    navigator.clipboard.writeText(copyInit);
+    navigator.clipboard.writeText(copyInit)
     console.log(copyInit)
 })
