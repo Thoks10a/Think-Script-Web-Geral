@@ -48,7 +48,7 @@ hgenerate.addEventListener("click", function () {
         if (document.getElementById("Boanoite").checked) { radioDia = "Boa noite"; checkD = true }
 
         if (hdescricaohash.value === '' || hdescricaohash.value === ' ') {
-            hdescricaohash.value = 'informo que as hash’s envolvendo esses incidentes não foi localizado nenhuma informação maliciosa para as ferramentas'
+            hdescricaohash.value = 'informo que em pesquisa das hash’s envolvendo esses incidentes não foi localizado nenhuma informação maliciosa para as ferramentas'
         }
 
         if (hacao.value === '' || hacao.value === ' ') {
